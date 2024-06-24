@@ -1,0 +1,2 @@
+Some Text written to the above created new File
+Some data read from the same file.
