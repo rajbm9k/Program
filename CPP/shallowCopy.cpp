@@ -13,7 +13,7 @@ class ABC{
             }
 
         ABC(const ABC &obj){
-         //   iptr = new int;
+         //   iptr = new int; // this line is purposefully commented in shallow copy.
             iptr = obj.iptr;
         }
         void display(){
