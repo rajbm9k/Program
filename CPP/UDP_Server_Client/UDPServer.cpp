@@ -1,5 +1,7 @@
 // Server side implementation of UDP client-server model 
 #include <bits/stdc++.h> 
+#include <stdio.h>
+#include <iostream>
 #include <stdlib.h> 
 #include <unistd.h> 
 #include <string.h> 
@@ -7,6 +9,9 @@
 #include <sys/socket.h> 
 #include <arpa/inet.h> 
 #include <netinet/in.h> 
+#include <errno.h>
+
+using namespace std;
 
 #define PORT	 8080 
 #define MAXLINE 1024 
@@ -53,7 +58,7 @@ int main() {
 	sendto(sockfd, (const char *)hello, strlen(hello), 
 		MSG_CONFIRM, (const struct sockaddr *) &cliaddr, 
 			len); 
-	std::cout<<"Hello message sent."<<std::endl; 
+	cout<<"Hello message sent."<<endl; 
 	
 	return 0; 
 }
