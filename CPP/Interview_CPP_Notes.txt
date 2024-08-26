@@ -1,0 +1,52 @@
+1. What is OOP? -> Data Abstraction, Inheritance, Polymorphism(Function - Overloading & Overriding) and operator Overloading, Data Encapsulation
+2. Different types of inherience & give example in real scenario? Single level, Multiple, Multi-level, herarchical, hybrid, 
+- Diamond Problem can be solved by using virtual keyword.
+3. What is the class of Empty class and Empty Class object? --> 1 byte
+4. what is Virtual Polymorphism? Explain with code , - Vtable gets created for each virtual class & its derived class. Where as Vptr is a hidden object for each object created for Virtual base / derived class.
+5. What is Copy Constructor & Explain with code -> className ( const className & Object_name){;}
+6. What is Operator overloading and Function Overloading? ->Operator Overloading means adding extra task/ user defined task to known operator , where as function overloading happens if there is any difference in number and type of argument passed.
+7. Data Structure in CPP ( Linked lists( node -> Data and Pointer to store address of other node), Vector -( Dynamic & contiguous memory) , Map( Key-Value pair), Stack(LIFO), Queue(FIFO))   
+8. Design Pattern? Singleton, Factory & Observer 
+9. Multithreading ? thread means nothing but task to perform certain operation so, many threads are created & perform things simultaneously.
+   best application is when we have Multicores.
+10. Smart Pointers ?  basically used to avoid Memory leak issues
+a. unique_ptr -> has only one memory location pointed by pointer
+b. shared_ptr -> has two pointers pointing to same memory location & even keeps the reference count.
+c. weak_ptr ->has two pointers pointing to same memory location but does not keep reference count
+
+11. What is friend function? here we can make private and protected members accessible from outside class scope
+12. What is Segmentation fault ? When we try to access the invalid or freed memory or restricted memory location
+13. Dangling Pointer ? A pointer still pointing to unallocated memory location usually happens when two pointers pointed to same memory location and one pointer delete/free that memory but other pointer still pointing to same location. 
+14. Memory leak ? creating memory without freeing it leads to memory lead.
+15. How is CPP different from C? C is procedure oriented while CPP is Object oriented.
+C is Top-down approach while CPP is bottom-up approach.
+16. what are access modifier in CPP? Public , Protected and Private
+17. Difference between While and do-While loop? do-while gets executed atleast once irrespective of terminating condition
+where as while checks the condition at entry point and executes the loop statements.
+18. Difference between Structure and Class ? inside structure all are public by default where in Class all are Private by default.same is applicable even in inherience.
+19.is it possible to overload constructor? Yes, Multiple constructors can be created by varying in number of parameters. Contructor don't have return type.
+20. is it possible to overload destructor? No, As there can be only one destructor with no parameters or return type.( represtented by ~ sign at begining)
+30.Does return type matters during function overloading? No, only number of parameters and its type matters.
+31. Can we have Virtual Constructor ? No, As no Vtable & Vptr is formed/available during constructor call.
+32. Can we have Virtual destructor? Yes, It Overrides Base constructor
+when virtual is used in base class destructor.
+33. What is static data member and member function?
+34. what is Call by Value and call by reference?
+35. Difference between Macro and inline ?
+36. what are the tyes of constructor?
+37. what is the order of constructor and destructor called in CPP? base to derive -> Contructor where as Drived to base -> destructor.
+38. What is the size of void in CPP? 1 byte
+39. what is NULL or NULL_ptr in CPP? 8 bytes
+40. how will you find size of class or object ? -> sizeof()
+41. Difference between Deep and shallow copy ? Shallow copy stores references of objects to the original memory address where as deep copy makes fresh and separate copy of entire object & its unique memory address.
+42. Can we overload scope of resolution (::) in CPP? No, not possible
+43. Difference between reference & Pointer? reference is nothing but alliasing i.e, two names given to same memory location where as Pointer can hold NULL value.Reference ->  Dot operator is used for accessing class or structure member, where as Pointer -> arrow operator is used.
+44. Difference between Association & Composition? 
+a. Association --> has a relationship 
+b. Composition -> Belongs to relationship -> Strong Association ( eg: hand & fingers) symbolically denoted by filled diamond.
+c. Aggregation --> has a relationship -> weak association ( eg: hand & playing cards) symbolically denoted by empty diamond.
+d. Generalization --> is a relationship ( inherience)
+
+45. what is return type of malloc function ? void*
+
+

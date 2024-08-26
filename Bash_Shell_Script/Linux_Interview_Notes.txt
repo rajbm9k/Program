@@ -1,0 +1,26 @@
+1. What are the Basic component/software architecture of linux? -> Hardware, Kernel,Shell,Application,User
+2. File Permission in Linux ? Read , Write and Execute
+3. what is Swap space in linux? this is virtual memory used to store data after RAM space is Full.
+4. What is use or significance of pipe(|) operator in linux? output of one command goes as input to next (eg: ps -ax | grep "process_name")
+5. what is difference between hard and soft( symbolic links) links in linux?
+6. What is absolute and relative path links in linux? absolute path starts with / or root directory where as relative starts from current directory
+7. How do you mount and unmount a path in linux? mount /dev/sda /mnt and umount /mnt
+8. Which command is to list all process running inside linux ( ps, top, htop)
+9. which command is used to check disk space usage in linux ? df -ah 
+10. command to list all partition in linux? fdisk -l , lsblk
+11. command to format particular partition in linux? mkfs.ext4 /dev/sda1
+12. How to find a particular file ( say Linux.txt) in linux root directory ? find / -name Linux.txt
+13. Command to find status of particular service or daemon? systemctl status service_name --> can be in Running,Stopped or error state.
+14. How do you compress and decompress files in linux? 
+tar -czvf output_folder.tar.gz input_folder/files ( compress)
+tar -xzvf output_folder.tar.gz ( decompress)
+15. Give some basic Git commands?
+git clone <url>
+git init
+git status
+git checkout branch_name
+git log
+git add . (or git add file_name)
+git commit -m "tag for commit"
+git push
+
