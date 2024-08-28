@@ -36,7 +36,7 @@ when virtual is used in base class destructor.
 36. what are the tyes of constructor?
 37. what is the order of constructor and destructor called in CPP? base to derive -> Contructor where as Drived to base -> destructor.
 38. What is the size of void in CPP? 1 byte
-39. what is NULL or NULL_ptr in CPP? 8 bytes
+39. what is NULL or nullptr in CPP? 8 bytes
 40. how will you find size of class or object ? -> sizeof()
 41. Difference between Deep and shallow copy ? Shallow copy stores references of objects to the original memory address where as deep copy makes fresh and separate copy of entire object & its unique memory address.
 42. Can we overload scope of resolution (::) in CPP? No, not possible
@@ -48,5 +48,5 @@ c. Aggregation --> has a relationship -> weak association ( eg: hand & playing c
 d. Generalization --> is a relationship ( inherience)
 
 45. what is return type of malloc function ? void*
-
-
+46. Prototype of function pointer ? int (*funptr) (int , int)
+47. 
