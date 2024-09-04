@@ -3,6 +3,9 @@
 3. what is Swap space in linux? this is virtual memory used to store data after RAM space is Full.
 4. What is use or significance of pipe(|) operator in linux? output of one command goes as input to next (eg: ps -ax | grep "process_name")
 5. what is difference between hard and soft( symbolic links) links in linux?
+ln -s srcFile dstFile --> have different inode value(Soft Link)
+ln srcFile dstFile -->have same inode value(Hard link)
+Note : ls -lai --> shows all files with inode value in 1st column.
 6. What is absolute and relative path links in linux? absolute path starts with / or root directory where as relative starts from current directory
 7. How do you mount and unmount a path in linux? mount /dev/sda /mnt and umount /mnt
 8. Which command is to list all process running inside linux ( ps, top, htop)
@@ -23,4 +26,17 @@ git log
 git add . (or git add file_name)
 git commit -m "tag for commit"
 git push
+git branch Dev  --> creates branch Dev
+git merge Dev    --> merges Dev branch with master
+git checkout <branch_name>
+git branch --list
+git branch -D <branch_name> --> deletes branch completely
 
+16. What is use of sed command? sed means Stream Editor and used to search and replace contents of files
+17.chown and chgrp command? chown --> change Ownership and chgrp --> change group
+18.chattr and lschattr command ?
+chattr --> change attribute for a file or directory
+lschattr --> list attribute for a file or input_folder
+19.grep command? used basically for searching text in a file or folders
+20.awk command? used for pattern or text scanning.especially for csv files have huge matrix of data.
+21.cut command? its used to cut certain part of contents of file and show as output. 
