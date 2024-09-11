@@ -1,0 +1,23 @@
+{'09:35': 'FREEPORT',
+ '09:55': 'WEST END',
+ '10:45': 'TREASURE CAY',
+ '11:45': 'ROCK SOUND',
+ '12:00': 'TREASURE CAY',
+ '17:00': 'FREEPORT',
+ '17:55': 'ROCK SOUND',
+ '19:00': 'WEST END'}
+
+{'05:00PM': 'Freeport',
+ '05:55PM': 'Rock Sound',
+ '07:00PM': 'West End',
+ '09:35AM': 'Freeport',
+ '09:55AM': 'West End',
+ '10:45AM': 'Treasure Cay',
+ '11:45AM': 'Rock Sound',
+ '12:00PM': 'Treasure Cay'}
+
+{'Freeport': ['09:35AM', '05:00PM'],
+ 'Rock Sound': ['11:45AM', '05:55PM'],
+ 'Treasure Cay': ['10:45AM', '12:00PM'],
+ 'West End': ['09:55AM', '07:00PM']}
+

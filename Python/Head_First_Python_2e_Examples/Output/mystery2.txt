@@ -1,0 +1,10 @@
+double function called:
+Before:  2.5
+140715337473040
+After:   5.0
+140715337480336
+change function called:
+Before:  ['Initial some', 'Data']
+140715332944000
+After:   ['Initial some', 'Data', 'More data']
+140715332944000

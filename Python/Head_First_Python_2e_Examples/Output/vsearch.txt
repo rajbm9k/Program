@@ -1,0 +1,4 @@
+search4vowels function called to 'Return any vowels found in a supplied 'e brain head first'.':
+{'a', 'e', 'i'}
+search4letters function called to 'Return a set of the 'letters' found in 'e brain head first'.':
+{'d', 't', 'f', 'b'}
