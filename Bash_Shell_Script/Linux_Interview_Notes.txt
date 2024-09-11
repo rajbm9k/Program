@@ -40,3 +40,7 @@ lschattr --> list attribute for a file or input_folder
 19.grep command? used basically for searching text in a file or folders
 20.awk command? used for pattern or text scanning.especially for csv files have huge matrix of data.
 21.cut command? its used to cut certain part of contents of file and show as output. 
+22. Cmake commands:( After creating CMakeLists.txt file and empty build folder)
+cmake ./build/..
+make ./build/
+./output_file

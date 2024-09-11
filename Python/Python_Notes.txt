@@ -1,0 +1,11 @@
+# Create Python Virtual Environment in Linux
+sudo apt install python3-venv
+python3 -m venv <folder_name>
+source ./<folder_name>/bin/activate
+deactivate
+
+# install modules in Python Virtual Environment
+pip install <module_name>
+pip list
+pip --help
+pip uninstall <module_name>
