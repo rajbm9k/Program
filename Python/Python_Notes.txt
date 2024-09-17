@@ -9,3 +9,43 @@ pip install <module_name>
 pip list
 pip --help
 pip uninstall <module_name>
+
+# Different Types of Data Structure
+a.list() --> eg: l = [1,2,3]
+b.dict() --> eg: d = {'first': 1, 'second': 2, 'third': 3 }
+c.set() --> eg: s = {1,2,3}
+d.tuple() --> eg: t = (1,2,3)
+
+#Function Template
+def function_name(optional_arguments:optional_arguments_type=default_value) -> optional_value_type
+    """ docstring --> multiline comment
+    A documentation string -> to know
+    what function does"""
+    # your function code 
+    return optional_value
+
+Note: Python never checks for argument type or return type & so its coder to understand
+
+#create / use module(file)
+file_name.py is module containing function "function_name"
+
+usage:
+import file_name
+file_name.function_name()
+
+# flask -> Web hosting purpose ( light weight)
+pip install flask
+
+# Return codes from websites
+100-199 -->Information pages
+200-299 -->Success pages
+300-399 -->Redirection pages
+400-499 -->Client Error pages
+500-599 -->Server Error pages 
+
+# create module in tar format and can be installed using pip 
+python python_setup_file.py sdist
+Note: module gets created inside "dist" folder
+
+#mysql database connector for python 
+pip install DBcm

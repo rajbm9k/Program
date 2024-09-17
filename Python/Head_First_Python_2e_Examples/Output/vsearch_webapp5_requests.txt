@@ -1,0 +1,3 @@
+server with page "http://127.0.0.1:5000/search4json" needs to be running
+<Response [200]>
+{'the_letters': 'xyz', 'the_phrase': 'life, the universe, and everything', 'the_results': "{'y'}"}
