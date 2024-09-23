@@ -1,0 +1,4 @@
+1.Asynchronous communication -> Client is blocked untill Server provides response
+2.Synchronous communication  -> Client can provide requests without waiting for server response.
+3.Concurrency --> multiple or parallel activities going on at same period of time.
+4.MVC Architecture -> Model , View & Controller

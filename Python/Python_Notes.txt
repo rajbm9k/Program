@@ -49,3 +49,26 @@ Note: module gets created inside "dist" folder
 
 #mysql database connector for python 
 pip install DBcm
+
+#Need to fill yet
+a.mysql -u root -p --> login as root user
+b.CREATE DATABASE my_database; --> create any database for particular root
+c.SHOW DATABASES; --> show all databases created particular USER / root
+d.USE my_database; --> Selecting particular my_database for use
+e.DROP DATABASE my_database; --> Delete my_database from mysql
+f.CREATE USER 'my_user'@'localhost' IDENTIFIED BY 'my_user_password';
+g.GRANT ALL PRIVILEGES ON my_database.* TO 'my_user'@'localhost';
+h.FLUSH PRIVILEGES;
+i.SHOW GRANTS FOR 'my_user'@'localhost';
+j.EXIT
+k.mysql -u 'my_user' -p my_database --> login as my_user for particular database
+l.SELECT USER,HOST FROM mysql.user;
+m.REVOKE ALL PRIVILEGES,GRANT OPTION FROM 'my_user'@'localhost'; 
+n.DROP USER 'my_user'@'localhost'; --> Delete particular my_user
+
+Note:UPDATE mysql.user SET PASSWORD=PASSWORD('my_new_passwd') WHERE USER='my_user'; --> my_user can be any user or root
+GRANT ALL ON my_database.* TO 'my_user'@'localhost';
+SHOW GRANTS FOR my_user;
+SHOW PRIVILEGES
+SHOW TABLESSELECT * FROM information_schema.USER_PRIVILEGES WHERE GRANTEE LIKE '%mickey%';
+SELECT * FROM information_schema.USER_PRIVILEGES WHERE GRANTEE LIKE '%my_user%';
