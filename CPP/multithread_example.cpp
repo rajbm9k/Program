@@ -4,7 +4,7 @@
 
 using namespace std;
 
-constexpr int MAX = 1E6; // 10^6 = 10 lakhs
+constexpr int MAX = 1E6; // 10^6 = 10 lakhs -> 10,00,000
 mutex mutex_obj;
 
 int main(){

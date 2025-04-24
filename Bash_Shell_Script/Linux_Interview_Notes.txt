@@ -44,3 +44,9 @@ lschattr --> list attribute for a file or input_folder
 cmake ./build/..
 make ./build/
 ./output_file
+
+#####################################################
+#ssh commands:
+
+ssh username@hostname -p <port> -R 1234:localhost:5678
+ssh user@R_Pi -p <> -R 1234:192.168.1.11:5678

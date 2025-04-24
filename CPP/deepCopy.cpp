@@ -8,7 +8,7 @@ class ABC{
         ABC(){};
 
         ABC(int a){
-            iptr = new int;
+            iptr = new int();
             *iptr = a;
             }
 

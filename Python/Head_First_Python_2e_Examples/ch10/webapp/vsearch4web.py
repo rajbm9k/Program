@@ -25,13 +25,11 @@ def log_request(req: 'flask_request', res: str) -> None:
         #                       req.remote_addr,
         #                       req.user_agent.browser,
         #                       res, ))
-        
-        cursor.execute(_SQL, ('hitvh-kkl',
-                              'xyz',
+        cursor.execute(_SQL, (req.form['phrase'],
+                              req.form['letters'],
                               req.remote_addr,
-                              req.user_agent.browser,
+                              'firefox',
                               res, ))
-
 
 @app.route('/search4', methods=['POST'])
 def do_search() -> 'html':

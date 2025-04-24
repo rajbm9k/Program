@@ -1,5 +1,5 @@
 #include<iostream>
-#include<string>
+//#include<string>
 
 using namespace std;
 
@@ -11,9 +11,9 @@ class ABC{
     ABC ( xyz p1,xyz p2){
         a = p1;
         b = p2;
-        cout<<"First value = "<<p1<<endl<<"Second Value = "<<p2<<endl;
-        cout<<"Actual First Value = "<<a<<endl<<"Actual Second Value = "<<b<<endl;
-            }
+        cout<<"First paramter value = "<<p1<<endl<<"Second parameter Value = "<<p2<<endl;
+        cout<<"First paramter of class ABC, a = "<<a<<endl<<"Second paramter of class ABC, b = "<<b<<endl;
+        }
 };
 
 int main(){

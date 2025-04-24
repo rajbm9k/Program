@@ -5,14 +5,14 @@ class ABC{
     int *iptr;
 
     public:
-        ABC(){};
+        ABC(){}; // default constructor
 
-        ABC(int a){
-            iptr = new int;
+        ABC(int a){    // parameterized constructor
+            iptr = new int();
             *iptr = a;
             }
 
-        ABC(const ABC &obj){
+        ABC(const ABC &obj){ // Copy Constructor
          //   iptr = new int; // this line is purposefully commented in shallow copy.
             iptr = obj.iptr;
         }
@@ -37,3 +37,4 @@ int main(){
     obj2.display();
     return 0;
 }
+
