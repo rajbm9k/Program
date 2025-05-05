@@ -24,6 +24,7 @@ class ABC{
             *iptr= b;
         }
 
+        void operator+(ABC &obj);
 };
 
 int main(){
